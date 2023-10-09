@@ -12,9 +12,9 @@ repositories {
 
 sonar {
     properties {
-        property "sonar.projectKey", "testorg-jb_jackrabbit"
-        property "sonar.organization", "testorg-jb"
-        property "sonar.host.url", "https://sonarcloud.io"
+        property("sonar.projectKey", "testorg-jb_jackrabbit")
+        property("sonar.organization", "testorg-jb")
+        property("sonar.host.url", "https://sonarcloud.io")
     }
 }
 
